@@ -1,0 +1,64 @@
+.title {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Poppins;
+    font-size: 243%;
+}
+
+body {
+    font-family: Poppins;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-attachment: fixed;
+}
+
+.glass {
+    text-anchor: middle;
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+img {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    max-width:700px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+    align-self: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 79%;
+}
+
+button {
+    font-family: Poppins;
+    text-anchor: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 12px;
+    padding-left: 46px;
+    padding-right: 46px;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 56px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+}
